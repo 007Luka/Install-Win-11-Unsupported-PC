@@ -5,9 +5,9 @@ rem ===============================================
 echo.
 
 setlocal EnableExtensions EnableDelayedExpansion
-set "SCRIPT=Install_Win11_unsuported.ps1"
+set "SCRIPT=Install_Win11_unsupported.ps1"
 set "FULLPATH=%~dp0%SCRIPT%"
-set "RAW_URL=https://raw.githubusercontent.com/007Luka/Install-Win-11-Unsupported-PC/blob/main/Install_Win11_unsuported.ps1"
+set "RAW_URL=https://raw.githubusercontent.com/007Luka/Install-Win-11-Unsupported-PC/main/Install_Win11_unsupported.ps1"
 
 :: Βρίσκουμε τη γλώσσα του συστήματος (EL = Greek, αλλιώς Αγγλικά)
 for /f "delims=" %%L in ('powershell -NoProfile -Command "(Get-Culture).TwoLetterISOLanguageName"') do set "LANG=%%L"
